@@ -66,7 +66,7 @@ translator:
   enable_user_dict: true
   max_phrase_length: 5
   preedit_format:
-    - 'xform/^([a-z]*)$/\U$1\E  ($1)/'
+    - "xform/^([a-z]*)$/$1\\t（\\U$1\\E）/"
     - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
   comment_format:
     - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符～|"
